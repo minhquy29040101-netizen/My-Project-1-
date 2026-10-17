@@ -1,3 +1,4 @@
+# Unity temporary folders
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -6,6 +7,23 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 /[Mm]emoryCaptures/
-/*.csproj
-/*.unityproj
-/*.sln
+
+# Visual Studio / VS Code temporary files
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
