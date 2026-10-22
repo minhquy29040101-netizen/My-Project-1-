@@ -35,11 +35,11 @@ private void Awake()
         Vector2 targetPosition = rb.position + (moveSpeed * Time.fixedDeltaTime * direction);
         rb.MovePosition(targetPosition);
     }
-    void OCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("You hit: " + collision.gameObject.name + "!");
     }
-    void OggerEnter2D(Collider2D Trigger)
+    void OnTriggerEnter2D(Collider2D Trigger)
     {
         Debug.Log("You received a" + Trigger.gameObject.name + "!");
     }
